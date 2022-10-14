@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+<body>
+    
+<div class="testbox">
+<form action="#">
+    <h1>Workplace Complaint Form</h1>
+<div class="inform person ">
+    <p>Your name</p>
+        
+        <input type="text" name="fname"  placeholder="First">
+                
+        <input type="text"  name="lname" placeholder="Last">
+
+</div>
+    <div class="inform">
+    <p>Your email</p>
+        <input type="email" name="email">
+    </div>
+    <div class="inform">
+        <p>Date of complaint</p>
+        <input type="date" name="date">
+    </div>
+    <div class="inform">
+    <p>Your department</p>
+        <select name="department" >
+            <option value="">*Please select*</option>
+            <option value="A">Department A</option>
+            <option value="B">Department B</option>
+            <option value="C">Department C</option>
+            <option value="D">Department D</option>
+            <option value="E">Department E</option>
+        </select>
+    </div>
+    <div class="inform">
+    <p>Office manager name</p>
+        <input type="text" name="fname">
+    </div>
+    <div class="inform">
+    <p>The person(s) involved in this complaint are</p>
+        <textarea cols="60" rows="5" placeholder="">
+        </textarea>
+    </div>
+    <div class="inform">
+    <p>Note all relevant dates, places, events, etc. pertaining to the complain</p>
+        <textarea cols="60" rows="5" placeholder="">
+        </textarea>
+    </div>
+    <div class="inform">
+    <p>Signature</p>
+        <textarea cols="60" rows="5" placeholder="">
+        </textarea>
+        <div class="submint">
+            <button class="btn">Send</button>
+        </div>
+    </div>
+
+
+
+</form>
+</div>
+
+</body>
+</html>

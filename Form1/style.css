@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.inform {
+    
+    display: flex;
+    flex-direction: column ;
+    border-radius: 3px;
+    padding :2px 0;
+    margin: 15px;
+    
+    
+    
+}
+h1{
+    margin: 5px 15px;
+    font-size: 40px;
+    color: gray;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+p{
+    font-size: 25px;
+    color: gray;
+    
+}
+
+input, select, textarea{
+    padding: 7px;
+    margin-bottom: 10px;
+    color: gray;
+    outline : none;
+    resize : none;
+    border: 1px solid #a4afba; 
+    
+    
+}
+
+.submint{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+button{
+    display: block;
+    background-color: rgb(24, 82, 144);
+    color: #fff;
+    padding: 0 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    border: 1px solid #a4afba; 
+    margin: 0 15px 15px 0;
+    box-sizing: border-box;
+    height: 30px;
+    width: 120px;
+	line-height: 15px;
+	font-size: 14px;
+
+}
+
+.btn:hover {
+	border-color:rgb(25, 121, 194) ;
+	color: #ca1842;  
+}
