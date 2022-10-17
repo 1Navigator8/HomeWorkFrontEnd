@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FormZoo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<form action="#" class="formzoo">
+
+<h1 class="titles">Форма заявки на работу в зоопарке</h1>
+
+<h2>Пожалуйста, заполните форму. Обязательные поля помечены <span>*</span> </h2>
+
+<div>
+    <fieldset>
+        <legend>Контактная информация</legend>
+    <div class="feld" >
+        <label for="username">Имя<span>*</span></input></label>
+        <input type="text"  id="usename"> 
+    </div>   
+
+    <div class="feld">
+        <label for="phone">Телефон</label>
+        <input type="tel"  id="phone"></input>
+    </div>   
+    
+    <div class="feld">
+        <label for="email">Email <span>*</span></label>
+        <input type="email" id="email"></input>
+
+    </div>    
+      </fieldset>
+</div>
+
+
+<div>
+    <fieldset>
+        <legend>Персональная информация</legend>
+<div class="feld">
+        <label for="age">Возраст<span>*</span></p></label>
+        <input type="text" id="age"></input>
+</div>
+
+<div class="feld">
+        <label for="gender">Пол</label>
+        <select id="gender" >
+            <option value="">Женщина</option>
+            <option value="A">Мужчина</option>
+            <option value="B">И то и сё</option>
+            <option value="C">Ни то ни сё</option>
+            <option value="D">Ещё не определился</option>
+            <option value="E">Ещё выбираю</option>
+            <option value="F">Бетонный</option>
+            <option value="G">Деревянный</option>
+            <option value="H">Затрудняюсь ответить</option>
+            <option value="J">Вопрос не понятен?</option>
+        </select> 
+</div>
+
+
+<div class="feld">
+
+        <label for="persons">Перечислите <br> личные <br> качества</label>
+        
+        <textarea  rows="7"cols="" id="persons">
+        </textarea>
+
+
+</div>        
+      </fieldset>
+</div>
+
+
+
+<div>
+    <fieldset class="checkbox1">
+        <legend>Выберите ваших любимых животных</legend>
+    
+        <label><input type="checkbox" value="zebra" name="zebra">Зебра</label> 
+        <label><input type="checkbox" value="cat" name="cat">Кошак</label>
+        <label><input type="checkbox" value="snake" name="snake">Анаконда</label>
+        <label><input type="checkbox" value="human" name="human">Человек</label>
+        <label><input type="checkbox" value="elephant" name="elephant">Слон</label>
+        <label><input type="checkbox" value="antelope" name="antelope">Антилопа</label>
+        <label><input type="checkbox" value="pigeon" name="pigeon">Голубь</label>
+        <label><input type="checkbox" value="crab" name="crab">Краб</label>
+        
+      </fieldset>
+</div>
+<div class="submint">
+    <button class="btn">Отправить информацию</button>
+</div>
+</form>
+
+<body>
+    
+</body>
+</html>
